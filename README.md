@@ -1,9 +1,9 @@
 # Some JavaScript and jQuery practice projects
 ## Files
 ### closures
+Creating a counter with in jQuery with global variables, variables inside of functions, and finally as a closure
 
-## Support & Documentation
+### js_scope
+Exploring variable scope in JavaScript
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
 # jquery_projs
