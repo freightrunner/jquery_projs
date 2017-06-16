@@ -12,19 +12,24 @@
     <h1>Hello world!</h1>
     <button type="button" id="test">Test jQuery</button>
     <div class="testArea">
-      <p>Counter works, but any script on page can increase counter without clicking on button</p>
-      <button type="button" id="button1">Global Variable</button>
-      <p id="output1">Result: </p>
+      <h3>Counter as a Global Variable</h3>
+      <p>Counter works, but any script on page can affect the counter variable</p>
+      <button type="button" id="button1">Count</button>
+      <p>Output: <span id="output1"></span> </p>
     </div>
     
     <div class="testArea">
-      <button type="button" id="button2">Variable inside function</button>
-      <p id="output2">Result: </p>
+      <h3>Counter Variable Inside Of A Function</h3>
+      <p>Counter does not work as variable is constantly reset to 0 before the += 1</p>
+      <button type="button" id="button2">Count</button>
+      <p>Output: <span id="output2"></span> </p>
     </div>
     
     <div class="testArea">
-      <button type="button" id="button3">Closure</button>
-      <p id="output3">Result: </p>
+      <h3>Closure</h3>
+      <p>With a closure the counter variable can only be accessed by invoking the closureCount variable which has become a function</p>
+      <button type="button" id="button3">Count</button>
+      <p>Output: <span id="output3"></span> </p>
     </div>
         
     <!-- load scripts at the bottom of your page -->
