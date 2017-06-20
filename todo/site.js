@@ -6,4 +6,8 @@ $("#add").click(function() {
     $("#mylist").append(elem);
     $("input").val("");
   }
+  $(".rem").click(function() {
+    $(this).parent().remove();
+  });
 });
+
